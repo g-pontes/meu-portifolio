@@ -5,12 +5,12 @@ function header() {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">Smith</a>
+        <a href="index.html" className="nav__logo">g-Pontes</a>
 
         <div className="nav__menu">
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="index.html" className="nav__link">
+              <a href="index.html" className="nav__link active-link">
                 <i className="uil uil-estate nav__icon"></i> Inicio
               </a>
             </li>

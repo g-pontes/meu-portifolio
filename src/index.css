@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-
-
 /*=============== VARIABLES CSS ===============*/
 :root {
     --header-height: 3rem;
@@ -16,7 +13,7 @@
     --container-color: #fff;
   
     /*========== Font and typography ==========*/
-    --body-font: "DM Sans", sans-serif;
+    --body-font: "Poppins", sans-serif;
   
     /*.5rem = 8px | 1rem = 16px ...*/
     --big-font-size: 3.5rem;
