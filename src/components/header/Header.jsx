@@ -11,7 +11,7 @@ function header() {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="index.html" className="nav__link">
-                <i className="uil uil-estate nav__icon"></i> home
+                <i className="uil uil-estate nav__icon"></i> casa
               </a>
             </li>
 
