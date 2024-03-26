@@ -2,6 +2,9 @@ import React from "react"
 import "./index.css"
 import Header from "./components/header/Header"
 import Home from "./components/home/Home"
+import About from "./components/about/About"
+import Skills from "./components/skills/Skills"
+import Footer from "./components/footer/Footer"
 
 const App = () => {
   return (
@@ -9,6 +12,9 @@ const App = () => {
     <Header />
     <main className="main">
       <Home />
+      <About />
+      <Skills />
+      <Footer />
     </main>
     </>
   )
