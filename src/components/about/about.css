@@ -1,3 +1,6 @@
+.about {
+    height: 89vh;
+}
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -53,7 +56,7 @@
     }
 
     .about__img {
-        width: 220px;
+        width: 290px;
     }
 
     .about__box {
@@ -75,6 +78,9 @@
    }
   /* For medium devices */
   @media screen and (max-width: 576px) {
+    .about {
+        height: 91vh;
+    }
     .about__info {
         grid-template-columns: repeat(3, 1fr);
     }
