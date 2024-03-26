@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import "./skills.css"
 import Frontend from "./Frontend"
 import Backend from "./Backend"
@@ -10,9 +11,21 @@ const Skills = () => {
         <span className="section__subtitle">Meu nível técnico</span>
 
         <div className="skills__container container grid">
-            <Frontend />
+            <motion.div
+                initial={{ opacity: 0, x:-200}}
+                transition={{ duration: 1}}
+                whileInView={{ opacity:1, x:0}}
+            ><Frontend />
+            
+            </motion.div>
 
-            <Backend />
+            <motion.div
+                initial={{ opacity: 0, x:200}}
+                transition={{ duration: 1}}
+                whileInView={{ opacity:1, x:0}}
+            ><Backend />
+
+            </motion.div>
         </div>
     </section>
   )

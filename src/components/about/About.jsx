@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import "./about.css"
 import AboutImg from "../../assets/WhatsApp Image 2024-02-09 at 16.55.59.jpeg"
 import CV from "../../assets/Meu-currículo.pdf"
@@ -10,7 +11,11 @@ const About = () => {
             <h2 className="section__title">Sobre mim</h2>
             <span className="section__subtitle">Minha introdução</span>
 
-            <div className="about__container container grid">
+            <motion.div className="about__container container grid"
+                        initial={{ opacity: 0, x:-200}}
+                        transition={{ duration: 1}}
+                        whileInView={{ opacity:1, x:0}}
+            >
                 <img src={AboutImg} alt="" className="about__img" />
                 <div className="about__data">
                     <Info />
@@ -48,7 +53,7 @@ const About = () => {
                         </svg>
                     </a>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

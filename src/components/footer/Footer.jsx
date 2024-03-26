@@ -21,11 +21,11 @@ const Footer = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/g-pontes"
                         className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                        <i className="uil uil-linkedin-alt"></i>
+                        <i className="uil uil-linkedin"></i>
                     </a>
                     <a href="https://github.com/g-pontes"
                         className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                        <i className="uil uil-github-alt"></i>
+                        <i className="uil uil-github"></i>
                     </a>
                 </div>
 
