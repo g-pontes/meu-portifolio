@@ -31,6 +31,12 @@ const Header = () => {
             </li>
 
             <li className="nav__item" onClick={() => showMenu(!Toggle)}>
+              <a href="#services" className="nav__link">
+                <i className="uil uil-file-alt nav__icon"></i> Serviços
+              </a>
+            </li>
+
+            <li className="nav__item" onClick={() => showMenu(!Toggle)}>
               <a href="index.html" className="nav__link">
                 <i className="uil uil-scenery nav__icon"></i> Portifolio
               </a>

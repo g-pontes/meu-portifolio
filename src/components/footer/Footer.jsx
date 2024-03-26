@@ -16,16 +16,16 @@ const Footer = () => {
 
                 <div className="footer__social">
                     <a href="https://www.instagram.com/g.pontes_12"
-                        className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                        <i className="uil uil-instagram"></i>
+                        className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                        <i className="uil uil-instagram footer__social-icon"></i>
                     </a>
                     <a href="https://www.linkedin.com/in/g-pontes"
-                        className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                        <i className="uil uil-linkedin"></i>
+                        className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                        <i className="uil uil-linkedin footer__social-icon"></i>
                     </a>
                     <a href="https://github.com/g-pontes"
-                        className="home__social-icon" target="_blank" rel="noopener noreferrer">
-                        <i className="uil uil-github"></i>
+                        className="footer__social-link" target="_blank" rel="noopener noreferrer">
+                        <i className="uil uil-github footer__social-icon"></i>
                     </a>
                 </div>
 

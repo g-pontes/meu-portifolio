@@ -12,17 +12,17 @@ const Skills = () => {
 
         <div className="skills__container container grid">
             <motion.div
-                initial={{ opacity: 0, x:-200}}
+                initial={{ opacity: 0, y:200}}
                 transition={{ duration: 1}}
-                whileInView={{ opacity:1, x:0}}
+                whileInView={{ opacity:1, y:0}}
             ><Frontend />
             
             </motion.div>
 
             <motion.div
-                initial={{ opacity: 0, x:200}}
+                initial={{ opacity: 0, y:200}}
                 transition={{ duration: 1}}
-                whileInView={{ opacity:1, x:0}}
+                whileInView={{ opacity:1, y:0}}
             ><Backend />
 
             </motion.div>
