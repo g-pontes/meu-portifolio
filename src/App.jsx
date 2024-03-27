@@ -9,6 +9,7 @@ import Skills from "./components/skills/Skills"
 import Footer from "./components/footer/Footer"
 import Services from "./components/services/Services"
 import Portifolio from "./components/portifolio/Portifolio"
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   useEffect(() => {
@@ -24,6 +25,7 @@ const App = () => {
       <Skills />
       <Services />
       <Portifolio />
+      <Contact />
       <Footer />
     </main>
     </>

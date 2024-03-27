@@ -43,7 +43,7 @@ const Header = () => {
             </li>
 
             <li className="nav__item" onClick={() => showMenu(!Toggle)}>
-              <a href="index.html" className="nav__link">
+              <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i> Contato
               </a>
             </li>
