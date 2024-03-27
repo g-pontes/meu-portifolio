@@ -14,12 +14,16 @@ const Services = () => {
             <h2 className="section__title">Serviços</h2>
             <span className="section__subtitle">O que eu ofereço</span>
 
-            <div className="services__container container grid">
-                <motion.div
+            <motion.div className="services__container container grid"
+            initial={{ opacity: 0, x:-200}}
+            transition={{ duration: 1}}
+            whileInView={{ opacity:1, x:0}}
+            >
+                <div
                     className="services__content"
-                    initial={{ opacity: 0, x: -200 }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    //initial={{ opacity: 0, x: -200 }}
+                    //transition={{ duration: 1 }}
+                    //whileInView={{ opacity: 1, x: 0 }}
                 >
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
@@ -67,7 +71,7 @@ const Services = () => {
                             </ul>
                         </div>
                     </div>
-                </motion.div>
+                </div>
 
                 <div className="services__content">
                     <div>
@@ -117,11 +121,11 @@ const Services = () => {
                     </div>
                 </div>
 
-                <motion.div
+                <div
                     className="services__content"
-                    initial={{ opacity: 0, x: 200 }}
-                    transition={{ duration: 1 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    //initial={{ opacity: 0, x: 200 }}
+                    //transition={{ duration: 1 }}
+                    //whileInView={{ opacity: 1, x: 0 }}
                 >
                     <div>
                         <i className="uil uil-edit services__icon"></i>
@@ -168,8 +172,8 @@ const Services = () => {
                             </ul>
                         </div>
                     </div>
-                </motion.div>
-            </div>
+                </div>
+            </motion.div>
         </section>
     )
 }

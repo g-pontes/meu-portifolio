@@ -68,8 +68,9 @@
   }
   
   html {
-    /*scroll-snap-type: y mandatory;*/
+   /* scroll-snap-type: y proximity;*/
     scroll-behavior: smooth;
+    
   }
   
   body,
@@ -111,10 +112,7 @@
     height: auto;
   }
 
-  /*section {
-    height: 90vh;
-    scroll-snap-align: center;
-  }*/
+ 
   
   /*=============== REUSABLE CSS CLASSES ===============*/
   .section {

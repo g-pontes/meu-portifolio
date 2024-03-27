@@ -54,28 +54,6 @@
     font-size: var(--tiny-font-size);
 }
 
-  /*=============== BUTTONS ===============*/
-  .button {
-    display: inline-block;
-    background-color: var(--title-color);
-    color: var(--container-color);
-    padding: 1.25rem 2rem;
-    border-radius: 1rem;
-    font-weight: var(--font-medium);
-  }
-  
-  .button:hover {
-    background-color: var(--title-color-dark);
-  }
-  
-  .button__icon {
-    margin-left: var(--mb-0-5);
-  }
-  
-  .button--flex {
-    display: inline-flex;
-    align-items: center;
-  }
   
   /*=============== BREAKPOINTS ===============*/
   /* For large devices */
@@ -93,7 +71,7 @@
   /* For medium devices */
   @media screen and (max-width: 576px) {
     .skills {
-      margin-bottom: 180px;
+      margin-top: 180px;
     }
     .skills__container {
         grid-template-columns: 1fr;
@@ -106,7 +84,11 @@
   }
   
   /* For small devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
+    .skills {
+      margin-top: 240px;
+    }
+
     .skills__box {
         column-gap: 1.25rem;
     }

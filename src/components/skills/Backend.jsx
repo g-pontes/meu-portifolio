@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Backend = () => {
     return (
         <div className="skills__content">
@@ -63,6 +64,7 @@ const Backend = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
