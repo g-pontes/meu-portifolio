@@ -9,7 +9,7 @@ const Backend = () => {
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">Node</h3>
@@ -18,7 +18,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">Java</h3>
@@ -27,7 +27,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">C#</h3>
@@ -37,7 +37,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">Python</h3>
@@ -46,7 +46,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">MySQL</h3>
@@ -55,7 +55,7 @@ const Backend = () => {
                     </div>
 
                     <div className="skills__data">
-                        <i className="bx bx-badge-check"></i>
+                        <i className="bx bxs-badge-check"></i>
 
                         <div>
                             <h3 className="skills__name">MongDB</h3>
