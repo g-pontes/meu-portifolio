@@ -1,5 +1,5 @@
 .services {
-    height: 80vh;
+    height: 70vh;
 }
 
 .services__container {
@@ -132,6 +132,11 @@
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    .services{
+        margin-bottom: 280px;
+        margin-top: 300px;
+    }
+
     .services__container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -154,26 +159,13 @@
         padding: 0;
     }
   }
-  
+
+
   /* For small devices */
   @media screen and (max-width: 360px) {
     .services {
-        margin-top: 360px;
-        margin-bottom: 360px;
-    }
-    .services__container {
-        grid-template-columns: max-content;
-    }
-
-    .services__content {
-        padding-right: 6rem;
-    }
-  }
-
-  @media screen and (max-width: 400px) {
-    .services {
         margin-top: 300px;
-        margin-bottom: 270px;
+        margin-bottom: 230px;
     }
     .services__container {
         grid-template-columns: max-content;
@@ -183,3 +175,5 @@
         padding-right: 6rem;
     }
   }
+
+  
