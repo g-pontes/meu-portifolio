@@ -38,7 +38,7 @@ const Portifolio = () => {
 
     return (
         <section className="portifolio section" id='portifolio'>
-            <h2 className="section__title">Portifolio</h2>
+            <h2 className="section__title">Portifólio</h2>
             <span className="section__subtitle">Projetos mais recentes</span>
             <div className="portifolio__container">
                 <div className="portifolio__content">

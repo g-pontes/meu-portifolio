@@ -79,7 +79,7 @@ const Header = () => {
                   activeNav === "#portifolio" ? "nav__link active-link" : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Portifolio
+                <i className="uil uil-scenery nav__icon"></i> Portifólio
               </a>
             </li>
 
