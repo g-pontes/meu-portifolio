@@ -159,6 +159,7 @@
   @media screen and (max-width: 360px) {
     .services {
         margin-top: 360px;
+        margin-bottom: 360px;
     }
     .services__container {
         grid-template-columns: max-content;
