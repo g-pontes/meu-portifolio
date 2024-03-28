@@ -1,7 +1,3 @@
-.services {
-    height: 70vh;
-}
-
 .services__container {
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
@@ -133,8 +129,7 @@
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .services{
-        margin-bottom: 280px;
-        margin-top: 300px;
+        
     }
 
     .services__container {
@@ -164,8 +159,7 @@
   /* For small devices */
   @media screen and (max-width: 360px) {
     .services {
-        margin-top: 300px;
-        margin-bottom: 230px;
+      
     }
     .services__container {
         grid-template-columns: max-content;
