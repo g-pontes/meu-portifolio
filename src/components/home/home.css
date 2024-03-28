@@ -196,4 +196,8 @@
         width: 22px;
         height: 22px;
     }
+
+    .home__title {
+        font-size: 2rem;
+    }
   }
