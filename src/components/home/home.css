@@ -1,5 +1,6 @@
 .home {
     height: 90vh;
+    
 }
 .home__container {
     row-gap: 7rem;
@@ -185,7 +186,7 @@
   }
   
   /* For small devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
     .home__img {
         width: 200px;
         height: 200px;

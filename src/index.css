@@ -207,7 +207,7 @@
   }
   
   /* For small devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
     :root {
       --big-font-size: 2.25rem;
     }
