@@ -54,9 +54,6 @@
   /*=============== BREAKPOINTS ===============*/
   /* For large devices */
   @media screen and (max-width: 992px) { 
-    .skills {
-        margin-top: 100px;
-    }
     
     .skills__container {
         grid-template-columns: max-content;
@@ -77,9 +74,6 @@
   
   /* For small devices */
   @media screen and (max-width: 360px) {
-    .skills {
-        margin-top: 200px;
-    }
 
     .skills__box {
         column-gap: 1.25rem;

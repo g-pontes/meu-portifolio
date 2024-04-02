@@ -22,6 +22,7 @@
 
 .modal__img {
     border-radius: 8px;
+    
 }
 
 .modal__title {
@@ -70,7 +71,6 @@
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
     border-radius: 8px;
     color: var(--container-color);
 }
@@ -88,8 +88,8 @@
     height: 1.8rem;
     background-color: var(--container-color);
     position: absolute;
-    top: 1.7rem;
-    right: 1.7rem;
+    top: .7rem;
+    right: .7rem;
     font-size: 25px;
     line-height: 2rem;
     border-radius: 5px;
@@ -100,6 +100,18 @@
     background-color: var(--title-color-dark);
     color: var(--container-color);
     transition: .3s ease-in;
+}
+
+@media screen and (max-height: 900px) {
+    .modal__img {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .modal__img {
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {

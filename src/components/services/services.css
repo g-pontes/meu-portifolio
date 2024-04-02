@@ -26,7 +26,7 @@
 
 .services__button {
     color: var(--title-color);
-    font-size: var(--smal-font-size);
+    font-size: var(--normal-font-size);
     display: inline-flex;
     align-items: center;
     column-gap: 0.25rem;

@@ -1,6 +1,7 @@
 .about {
-    height: 89vh;
+    margin-bottom: 145px;
 }
+
 .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -78,9 +79,6 @@
    }
   /* For medium devices */
   @media screen and (max-width: 576px) {
-    .about {
-        height: 91vh;
-    }
     .about__info {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -91,7 +89,10 @@
   }
   
   /* For small devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 360px) {
+    .about {
+    margin-bottom: 0px;
+    }
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }
