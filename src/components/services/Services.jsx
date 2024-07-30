@@ -39,7 +39,7 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             <h3 className="services__modal-title">Designer de Produto</h3>
                             <p className="services__modal-description">
-                                Atendimento com mais de 3 anos de experiência.
+                                Desenvolvendo com mais de 3 anos de experiência.
                                 Fornecendo trabalho de qualidade a clientes e empresas.
                             </p>
 
@@ -87,7 +87,7 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             <h3 className="services__modal-title">Ui/Ux Designer</h3>
                             <p className="services__modal-description">
-                                Atendimento com mais de 3 anos de experiência.
+                                Desenvolvendo com mais de 3 anos de experiência.
                                 Fornecendo trabalho de qualidade a clientes e empresas.
                             </p>
 
@@ -140,7 +140,7 @@ const Services = () => {
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
                             <h3 className="services__modal-title">Designer de Dashboars</h3>
                             <p className="services__modal-description">
-                                Atendimento com mais de 3 anos de experiência.
+                                Desenvolvendo com mais de 3 anos de experiência.
                                 Fornecendo trabalho de qualidade a clientes e empresas.
                             </p>
 
