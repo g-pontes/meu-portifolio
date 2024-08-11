@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import "./about.css"
 import AboutImg from "../../assets/WhatsApp Image 2024-02-09 at 16.55.59.jpeg"
-import CV from "../../assets/Meu-currículo.pdf"
+import CV from "../../assets/Currículo - Guilherme Pontes Santos.pdf"
 import Info from './Info'
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Sou desenvolvedor Fullstack, crio páginas web com interface de usuário UI/UX. Atualmente estou cursando Engenharia de software. Realizei cursos como técnico em TI, designer, Arduino/lógica de programação e inglês na parte de idiomas.
+                    Sou desenvolvedor Fullstack, crio páginas web com interface de usuário UI/UX. Atualmente estou cursando Engenharia de software. Realizei cursos como técnico em TI, Designer gráfico e inglês na parte de idiomas.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">

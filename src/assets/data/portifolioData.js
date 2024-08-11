@@ -16,7 +16,7 @@ const portifolios = [
       category: "Ux",
       title: "FithPhysique",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        "FithPhysique é uma academia moderna que oferece treinamentos personalizados, aulas dinâmicas e acompanhamento profissional em um ambiente motivador, focado em ajudar seus membros a alcançar seus objetivos de saúde e bem-estar.",
       technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
       siteUrl: "https://magenta-kangaroo-12c0a9.netlify.app/",
     },
@@ -26,7 +26,7 @@ const portifolios = [
       category: "Ux",
       title: "H-Business",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        "H-Business é uma empresa de financiamento que oferece soluções financeiras personalizadas, incluindo empréstimos, investimentos e consultoria, para ajudar clientes a alcançar seus objetivos financeiros com eficiência.",
       technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
       siteUrl: "https://creative-marshmallow-ce8afb.netlify.app/",
     },
@@ -36,7 +36,7 @@ const portifolios = [
       category: "Web Design",
       title: "Agencia Nextcent",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        "Agência Nextcent é uma agência de financiamento dedicada a oferecer soluções financeiras inovadoras e acessíveis para empresas e indivíduos. Com foco em personalização e agilidade, a Nextcent fornece serviços como empréstimos, consultoria financeira e planejamento estratégico, ajudando seus clientes a crescer e prosperar financeiramente.",
       technologies: ["React", "Tailwind css", "Node.js"],
       siteUrl: "https://famous-gaufre-31d29a.netlify.app/",
     },
@@ -56,7 +56,7 @@ const portifolios = [
       category: "Web Design",
       title: "Landing Page",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe! ",
       technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
       siteUrl: "#",
     },
