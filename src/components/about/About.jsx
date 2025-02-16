@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import "./about.css"
 import AboutImg from "../../assets/WhatsApp Image 2024-02-09 at 16.55.59.jpeg"
-import CV from "../../assets/Currículo - Guilherme Pontes Santos.pdf"
+import CV from "../../assets/Guilherme Pontes Santos - Currículo.pdf"
 import Info from './Info'
 
 const About = () => {
